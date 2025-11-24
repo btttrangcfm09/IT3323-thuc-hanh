@@ -1,0 +1,5 @@
+# Ignore object files
+incompleted/*.o
+
+# Ignore executable files
+incompleted/scanner.exe
