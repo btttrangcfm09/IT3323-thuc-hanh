@@ -3,6 +3,3 @@ incompleted/*.o
 
 # Ignore executable files
 incompleted/scanner.exe
-
-# Ignore README.md
-README.md
