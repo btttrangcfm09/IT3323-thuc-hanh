@@ -1,2 +1,2 @@
-incompleted\*.o
-incompleted\scanner.exe
+incompleted/*.o
+incompleted/scanner.exe
