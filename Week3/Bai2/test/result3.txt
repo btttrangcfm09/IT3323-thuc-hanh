@@ -1,0 +1,155 @@
+Parsing a Program ....
+2-1:KW_PROGRAM
+2-9:TK_IDENT(TestCombined)
+2-21:SB_SEMICOLON
+Parsing a Block ....
+3-1:KW_VAR
+3-5:TK_IDENT(i)
+3-6:SB_COLON
+3-8:KW_INTEGER
+3-15:SB_SEMICOLON
+4-5:TK_IDENT(j)
+4-6:SB_COLON
+4-8:KW_INTEGER
+4-15:SB_SEMICOLON
+5-5:TK_IDENT(sum)
+5-8:SB_COLON
+5-10:KW_INTEGER
+5-17:SB_SEMICOLON
+6-5:TK_IDENT(max)
+6-8:SB_COLON
+6-10:KW_INTEGER
+6-17:SB_SEMICOLON
+7-5:TK_IDENT(min)
+7-8:SB_COLON
+7-10:KW_INTEGER
+7-17:SB_SEMICOLON
+Parsing subtoutines ....
+Subtoutines parsed ....
+8-1:KW_BEGIN
+Parsing an assign statement ....
+10-3:TK_IDENT(i)
+10-4:SB_COMMA
+10-6:TK_IDENT(j)
+10-7:SB_COMMA
+10-9:TK_IDENT(sum)
+10-13:SB_ASSIGN
+Parsing an expression
+10-16:TK_NUMBER(0)
+Expression parsed
+10-17:SB_COMMA
+Parsing an expression
+10-19:TK_NUMBER(10)
+Expression parsed
+10-21:SB_COMMA
+Parsing an expression
+10-23:TK_NUMBER(0)
+Expression parsed
+Assign statement parsed ....
+10-24:SB_SEMICOLON
+Parsing a repeat statement ....
+13-3:KW_REPEAT
+Parsing an assign statement ....
+14-5:TK_IDENT(sum)
+14-9:SB_ASSIGN
+Parsing an expression
+14-12:TK_IDENT(sum)
+14-16:SB_PLUS
+14-18:TK_IDENT(i)
+Expression parsed
+Assign statement parsed ....
+14-19:SB_SEMICOLON
+Parsing an assign statement ....
+15-5:TK_IDENT(i)
+15-6:SB_COMMA
+15-8:TK_IDENT(j)
+15-10:SB_ASSIGN
+Parsing an expression
+15-13:TK_IDENT(i)
+15-15:SB_PLUS
+15-17:TK_NUMBER(1)
+Expression parsed
+15-18:SB_COMMA
+Parsing an expression
+15-20:TK_IDENT(j)
+15-22:SB_MINUS
+15-24:TK_NUMBER(1)
+Expression parsed
+Assign statement parsed ....
+16-3:KW_UNTIL
+Parsing an expression
+16-9:TK_IDENT(i)
+Expression parsed
+16-11:SB_EQ
+Parsing an expression
+16-13:TK_NUMBER(10)
+Expression parsed
+Repeat statement parsed ....
+16-15:SB_SEMICOLON
+Parsing an assign statement ....
+19-3:TK_IDENT(max)
+19-6:SB_COMMA
+19-8:TK_IDENT(min)
+19-12:SB_ASSIGN
+Parsing an expression
+19-15:TK_NUMBER(100)
+Expression parsed
+19-18:SB_COMMA
+Parsing an expression
+19-20:TK_NUMBER(1)
+Expression parsed
+Assign statement parsed ....
+19-21:SB_SEMICOLON
+Parsing a repeat statement ....
+20-3:KW_REPEAT
+Parsing a repeat statement ....
+21-5:KW_REPEAT
+Parsing an assign statement ....
+22-7:TK_IDENT(min)
+22-11:SB_ASSIGN
+Parsing an expression
+22-14:TK_IDENT(min)
+22-18:SB_PLUS
+22-20:TK_NUMBER(1)
+Expression parsed
+Assign statement parsed ....
+23-5:KW_UNTIL
+Parsing an expression
+23-11:TK_IDENT(min)
+Expression parsed
+23-15:SB_GT
+Parsing an expression
+23-17:TK_NUMBER(50)
+Expression parsed
+Repeat statement parsed ....
+23-19:SB_SEMICOLON
+Parsing an assign statement ....
+24-5:TK_IDENT(max)
+24-8:SB_COMMA
+24-10:TK_IDENT(min)
+24-14:SB_ASSIGN
+Parsing an expression
+24-17:TK_IDENT(max)
+24-21:SB_MINUS
+24-23:TK_NUMBER(10)
+Expression parsed
+24-25:SB_COMMA
+Parsing an expression
+24-27:TK_IDENT(min)
+24-31:SB_PLUS
+24-33:TK_NUMBER(5)
+Expression parsed
+Assign statement parsed ....
+25-3:KW_UNTIL
+Parsing an expression
+25-9:TK_IDENT(max)
+Expression parsed
+25-13:SB_LT
+Parsing an expression
+25-15:TK_NUMBER(50)
+Expression parsed
+Repeat statement parsed ....
+26-1:KW_END
+Block parsed!
+26-4:SB_PERIOD
+Program parsed!

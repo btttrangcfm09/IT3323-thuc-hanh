@@ -1,0 +1,96 @@
+Parsing a Program ....
+2-1:KW_PROGRAM
+2-9:TK_IDENT(TestMultiAssign)
+2-24:SB_SEMICOLON
+Parsing a Block ....
+3-1:KW_VAR
+3-5:TK_IDENT(x)
+3-6:SB_COLON
+3-8:KW_INTEGER
+3-15:SB_SEMICOLON
+4-5:TK_IDENT(y)
+4-6:SB_COLON
+4-8:KW_INTEGER
+4-15:SB_SEMICOLON
+5-5:TK_IDENT(z)
+5-6:SB_COLON
+5-8:KW_INTEGER
+5-15:SB_SEMICOLON
+6-5:TK_IDENT(a)
+6-6:SB_COLON
+6-8:KW_INTEGER
+6-15:SB_SEMICOLON
+7-5:TK_IDENT(b)
+7-6:SB_COLON
+7-8:KW_INTEGER
+7-15:SB_SEMICOLON
+Parsing subtoutines ....
+Subtoutines parsed ....
+8-1:KW_BEGIN
+Parsing an assign statement ....
+10-3:TK_IDENT(x)
+10-5:SB_ASSIGN
+Parsing an expression
+10-8:TK_NUMBER(10)
+Expression parsed
+Assign statement parsed ....
+10-10:SB_SEMICOLON
+Parsing an assign statement ....
+13-3:TK_IDENT(x)
+13-4:SB_COMMA
+13-6:TK_IDENT(y)
+13-7:SB_COMMA
+13-9:TK_IDENT(z)
+13-11:SB_ASSIGN
+Parsing an expression
+13-14:TK_NUMBER(1)
+Expression parsed
+13-15:SB_COMMA
+Parsing an expression
+13-17:TK_NUMBER(2)
+Expression parsed
+13-18:SB_COMMA
+Parsing an expression
+13-20:TK_NUMBER(3)
+Expression parsed
+Assign statement parsed ....
+13-21:SB_SEMICOLON
+Parsing an assign statement ....
+16-3:TK_IDENT(a)
+16-4:SB_COMMA
+16-6:TK_IDENT(b)
+16-8:SB_ASSIGN
+Parsing an expression
+16-11:TK_IDENT(x)
+16-13:SB_PLUS
+16-15:TK_IDENT(y)
+Expression parsed
+16-16:SB_COMMA
+Parsing an expression
+16-18:TK_IDENT(z)
+16-20:SB_TIMES
+16-22:TK_NUMBER(2)
+Expression parsed
+Assign statement parsed ....
+16-23:SB_SEMICOLON
+Parsing an assign statement ....
+19-3:TK_IDENT(x)
+19-4:SB_COMMA
+19-6:TK_IDENT(y)
+19-8:SB_ASSIGN
+Parsing an expression
+19-11:TK_IDENT(a)
+19-13:SB_PLUS
+19-15:TK_NUMBER(5)
+Expression parsed
+19-16:SB_COMMA
+Parsing an expression
+19-18:TK_IDENT(b)
+19-20:SB_MINUS
+19-22:TK_NUMBER(3)
+Expression parsed
+Assign statement parsed ....
+20-1:KW_END
+Block parsed!
+20-4:SB_PERIOD
+Program parsed!

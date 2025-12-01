@@ -1,0 +1,26 @@
+(* Test combined features: REPEAT-UNTIL and multi-variable assignment *)
+PROGRAM TestCombined;
+VAR i: INTEGER;
+    j: INTEGER;
+    sum: INTEGER;
+    max: INTEGER;
+    min: INTEGER;
+BEGIN
+  (* Initialize variables using multi-assignment *)
+  i, j, sum := 0, 10, 0;
+  
+  (* Use REPEAT-UNTIL with multi-variable assignment inside *)
+  REPEAT
+    sum := sum + i;
+    i, j := i + 1, j - 1
+  UNTIL i = 10;
+  
+  (* Nested REPEAT with multi-assignment *)
+  max, min := 100, 1;
+  REPEAT
+    REPEAT
+      min := min + 1
+    UNTIL min > 50;
+    max, min := max - 10, min + 5
+  UNTIL max < 50
+END.

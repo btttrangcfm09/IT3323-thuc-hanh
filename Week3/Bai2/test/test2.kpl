@@ -1,0 +1,20 @@
+(* Test multi-variable assignment *)
+PROGRAM TestMultiAssign;
+VAR x: INTEGER;
+    y: INTEGER;
+    z: INTEGER;
+    a: INTEGER;
+    b: INTEGER;
+BEGIN
+  (* Single variable assignment *)
+  x := 10;
+  
+  (* Multi-variable assignment *)
+  x, y, z := 1, 2, 3;
+  
+  (* Another multi-variable assignment *)
+  a, b := x + y, z * 2;
+  
+  (* Assignment with expressions *)
+  x, y := a + 5, b - 3
+END.
