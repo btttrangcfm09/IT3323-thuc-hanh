@@ -181,10 +181,3 @@ Cleaned
 - Độ dài tối đa mỗi dòng: 10,000 ký tự
 - Độ dài tối đa danh sách vị trí: 3,000 ký tự
 
-## Tác giả
-
-IT3323 - Thực hành
-
-## License
-
-Educational purposes only
